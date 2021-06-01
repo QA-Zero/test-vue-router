@@ -5,7 +5,6 @@ import VueRouter from 'vue-router';
 import ElementUI from 'element-ui';
 import Common from '@/plugins/common.js';
 import 'element-ui/lib/theme-chalk/index.css';
-// import './assets/styles/main.scss';
 
 Vue.config.productionTip = false;
 
