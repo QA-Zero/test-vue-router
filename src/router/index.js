@@ -29,10 +29,10 @@ const router = new Router({
       component: RootPage,
       children: [ RootRout ],
     },
-    // {
-    //   path: '/:catchAll(.*)',
-    //   redirect: { path: '/' },
-    // },
+    {
+      path: '/:catchAll(.*)',
+      redirect: { path: '/' },
+    },
   ],
 });
 
